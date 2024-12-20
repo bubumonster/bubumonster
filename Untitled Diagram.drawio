@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1291" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -747,6 +747,87 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2257" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=none;html=1;exitX=0.75;exitY=0;entryX=0.75;entryY=0;shadow=0;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;jettySize=auto;orthogonalLoop=1;strokeColor=#23445D;strokeWidth=2;fillColor=#F08705;fontFamily=Helvetica;fontSize=25;fontColor=#23445D;align=left;" parent="1" source="2087" target="2087" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ddVPhHO7TMSQ8IakqeJr" name="Page-2">
+    <mxGraphModel dx="1614" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9TKREyzP79y3GIbNVZiC-1" value="NUC-Server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="130" y="1420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-6" target="9TKREyzP79y3GIbNVZiC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-6" target="9TKREyzP79y3GIbNVZiC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1041" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1041" />
+              <mxPoint x="690" y="1041" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-6" value="/Volume1/" style="shape=mxgraph.cisco.storage.relational_database;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="1140.5" width="66" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-7" value="Synology-NAS" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1136" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-8" value="4R5D" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;labelPosition=center;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="40" y="419" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-9" value="&lt;div&gt;3R4D-Aero&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-11" target="9TKREyzP79y3GIbNVZiC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="442.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-11" value="&lt;div&gt;/Archive/&lt;/div&gt;&lt;div&gt;/Git-Repos/&lt;/div&gt;&lt;div&gt;/iTunes/&lt;/div&gt;&lt;div&gt;/Music/&lt;/div&gt;&lt;div&gt;/SyncData/&lt;/div&gt;&lt;div&gt;/Vault/&lt;/div&gt;&lt;div&gt;/Video/&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="360" width="150" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-17" target="9TKREyzP79y3GIbNVZiC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-17" value="Git Server" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1016" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: transparent;&quot;&gt;/Git-Repos/...&lt;br&gt;&lt;br&gt;.../MyData/&lt;/div&gt;&lt;div style=&quot;background-color: transparent;&quot;&gt;.../MyDocuments/&lt;br&gt;.../MySSHell/&lt;/div&gt;&lt;div style=&quot;background-color: transparent;&quot;&gt;.../MyVault/&lt;/div&gt;&lt;div style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="600" width="150" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-24" target="9TKREyzP79y3GIbNVZiC-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1169" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-24" value="Syncthing" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_datasync;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1213" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=5;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-27" target="9TKREyzP79y3GIbNVZiC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-27" value="&lt;div&gt;/Archive/&lt;/div&gt;&lt;div&gt;/Git-Repos/&lt;/div&gt;&lt;div&gt;/iTunes/&lt;/div&gt;&lt;div&gt;/Music/&lt;/div&gt;&lt;div&gt;/SyncData/&lt;/div&gt;&lt;div&gt;/Vault/&lt;/div&gt;&lt;div&gt;/Video/&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="150" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;strokeWidth=1;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-7" target="9TKREyzP79y3GIbNVZiC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-6" target="9TKREyzP79y3GIbNVZiC-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TKREyzP79y3GIbNVZiC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeWidth=5;" edge="1" parent="1" source="9TKREyzP79y3GIbNVZiC-21" target="9TKREyzP79y3GIbNVZiC-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
